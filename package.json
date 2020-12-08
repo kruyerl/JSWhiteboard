@@ -1,55 +1,39 @@
 {
-	"name": "basic_web_templatee",
+	"name": "js-whiteboard",
 	"version": "1.0.0",
 	"description": "A Basic Web Template",
-	"main": "./src/pug/index.pug",
+	"main": "./src/index.js",
 	"scripts": {
-		"dev": "parcel ./src/pug/index.pug",
-		"build": "npm run clean && parcel build ./src/pug/index.pug",
-		"lint": "eslint .",
-		"clean": "rimraf ./dist/*",
-		"lint:fix": "eslint . --fix",
-		"lint:css": "stylelint './src/**/*.scss'"
+		"start": "nodemon ./src/index.js"
 	},
 	"keywords": [
-		"Pug",
-		"Scss",
+		"JavaScript",
 		"Babel",
-		"Stylelint",
 		"Eslint"
 	],
 	"author": "",
 	"license": "ISC",
+	"repository": "",
 	"devDependencies": {
-		"@babel/core": "^7.12.7",
+		"@babel/core": "^7.12.9",
 		"@babel/plugin-proposal-class-properties": "^7.12.1",
 		"@babel/preset-env": "^7.12.7",
 		"@babel/preset-react": "^7.12.7",
-		"babel-eslint": "^9.0.0",
-		"eslint": "^5.16.0",
-		"eslint-config-airbnb": "^17.1.1",
-		"eslint-config-prettier": "^4.3.0",
-		"eslint-config-wesbos": "0.0.19",
-		"eslint-plugin-html": "^5.0.5",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^7.15.0",
+		"eslint-config-airbnb": "^18.2.1",
+		"eslint-config-prettier": "^7.0.0",
+		"eslint-config-wesbos": "1.0.1",
+		"eslint-plugin-html": "^6.1.1",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-jsx-a11y": "^6.4.1",
-		"eslint-plugin-prettier": "^3.1.4",
+		"eslint-plugin-prettier": "^3.2.0",
 		"eslint-plugin-react": "^7.21.5",
-		"eslint-plugin-react-hooks": "^1.7.0",
-		"parcel-bundler": "^1.12.4",
-		"prettier": "^1.19.1",
-		"pug": "^2.0.4",
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6",
-		"react-hot-loader": "^4.8.4",
-		"sass": "^1.29.0",
-		"stylelint": "^13.8.0",
-		"stylelint-config-recommended": "^2.2.0",
-		"stylelint-config-recommended-scss": "^3.3.0",
-		"stylelint-scss": "^3.18.0"
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"nodemon": "^2.0.6",
+		"prettier": "^2.2.1"
 	},
 	"dependencies": {
-		"normalize-scss": "^7.0.1",
 		"babel-polyfill": "^6.26.0"
 	}
 }

@@ -1,7 +1,4 @@
-import 'babel-polyfill'
-
-// Archived Whiteboard Challenges
-import './Archive'
+/* eslint-disable no-console */
 
 /** ===============================
  * Date:                28/04/19
